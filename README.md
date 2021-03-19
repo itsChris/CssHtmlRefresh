@@ -23,5 +23,15 @@
             span{
             color:var(--primary-color);
         }
+to scope for specific type, use i.e.: 
+    input[type="submit"]{
+            background-color: #f2f2f2;
+    }
 
-Responsive instruction in SCSS: *@media only screen and (min-width: nnnnpx) {}*
+- To order items based on scree size, use:
+    ul.features-list{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    }
+
+- Responsive instruction in SCSS: *@media only screen and (min-width: nnnnpx) {}*
